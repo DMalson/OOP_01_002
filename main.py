@@ -52,7 +52,7 @@ stern_reviewer = Reviewer("Ned", "Stark")
 stern_reviewer.courses_attached += ['Python']
 
 stern_reviewer.rate_hw(best_student, 'Python', 10)
-stern_reviewer.rate_hw(best_student, 'Java', 7)
+stern_reviewer.rate_hw(best_student, 'Java', 7) # Не должно срабатывать
 stern_reviewer.rate_hw(best_student, 'Python', 8)
 
 best_student.rate_hw(cool_mentor, 'Python', 9)
